@@ -1,6 +1,7 @@
 import 'package:flutter/rendering.dart';
 
 const Color GCdarkBlue = Color(0xff0d2646);
+const Color GClighBlue = Color(0xff172f4d);
 const Color GCpink = Color(0xfffecbce);
 const Color GCneonPink = Color(0xffe6c8cb);
 const Color GCgrey = Color(0xff7f8796);

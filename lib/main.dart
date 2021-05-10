@@ -1,3 +1,4 @@
+import 'package:chatty/pages/login_screen/login.dart';
 import 'package:chatty/pages/recent_page/recent_chats.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Material(child: RecentChats()),
+      home: Material(child: Login()),
     );
   }
 }

@@ -52,7 +52,12 @@ class _FriendInfo extends StatelessWidget {
           ),
         ),
         SizedBox(height: 2),
-        Hero(tag: user.name, child: Text(user.name.first))
+        Hero(
+            tag: user.name,
+            child: Text(
+              user.name.first,
+              style: Theme.of(context).textTheme.bodyText2,
+            ))
       ],
     );
   }

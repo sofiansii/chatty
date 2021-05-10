@@ -39,7 +39,6 @@ class InfoBar extends StatelessWidget {
         IconButton(
             icon: Icon(Icons.call_outlined, size: 30),
             color: GCneonPink,
-            // splashColor: ,
             splashRadius: 22,
             onPressed: () {})
       ],
